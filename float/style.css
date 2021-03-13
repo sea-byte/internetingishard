@@ -9,6 +9,10 @@
     border: 1px solid red;
     overflow: hidden;
 }
+.container{
+    overflow: hidden;
+    background-color: #EAEDF0;
+}
 .menu{
     height: 200px;
     background-color: #B2D6FF;
@@ -29,7 +33,14 @@
 }
 .footer{
     clear: both;
-    height: 200px;
+    overflow: hidden;
     background-color: #d6e9fe;
 
+}
+.column{
+    float: left;
+    width: 31%;
+    margin:20px 1.15%;
+    height: 160px;
+    background-color: #B2D6FF;
 }
